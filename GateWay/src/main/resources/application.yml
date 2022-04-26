@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8989/eureka
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: hodimModuli
+          uri: lb://HODIM
+          predicates:
+            - Path=/api/v1/hodim/**
+        - id: mvdModule
+          uri: lb://MVD
+          predicates:
+            - Path=/api/v1/mvd/**
