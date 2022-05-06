@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Eureka_Gateway_microservice.iml" filepath="$PROJECT_DIR$/.idea/Eureka_Gateway_microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EvrikaServer/EvrikaServer.iml" filepath="$PROJECT_DIR$/EvrikaServer/EvrikaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GateWay/GateWay.iml" filepath="$PROJECT_DIR$/GateWay/GateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MvdSpravkaDemo/MvdSpravkaDemo.iml" filepath="$PROJECT_DIR$/MvdSpravkaDemo/MvdSpravkaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hodimlar/SpringMicrodserviceHodimlar.iml" filepath="$PROJECT_DIR$/Hodimlar/SpringMicrodserviceHodimlar.iml" />
     </modules>
   </component>
 </project>
